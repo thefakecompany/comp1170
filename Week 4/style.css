@@ -1,0 +1,39 @@
+/* This selects all p tags */
+p{
+    font-size: 18px;
+    line-height: 26px;
+}
+
+
+/* Tis is a class selector */
+.quote{
+    font-size: 35px;
+    font-style: italic;
+    text-align: center;
+    line-height: 40px;
+    color:rgb(34, 34, 34);
+}
+
+/* This is an id selector */
+#author-name{
+    color: rgb(255, 94, 121);
+    font-style: italic;
+    font-size: 13px;
+}
+
+/*  This selects the firt letter of any element, in this case
+any element with .top-paragraph class
+*/
+.top-paragraph::first-letter{
+    font-weight: 900;
+    font-size: 25px;
+}
+
+h1{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1:hover{
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.123);
+}
